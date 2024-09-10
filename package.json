@@ -1,0 +1,25 @@
+{
+  "name": "youtube-chat",
+  "version": "1.0.0",
+  "description": "A quick Oauth 2.0 app that pulls and redirects to the latest livestream URL. For use as an embeddable window in OBS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "oauth",
+    "obs",
+    "chat"
+  ],
+  "author": "Tarik Fayad",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "google-auth-library": "^9.14.1",
+    "open": "^7.4.2",
+    "server-destroy": "^1.0.1"
+  }
+}
