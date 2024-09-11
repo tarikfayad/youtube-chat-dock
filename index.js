@@ -29,6 +29,8 @@ app.get('/auth', async (req, res) => {
 
         console.log('Tokens acquired:', tokens);
 
+        // Need to redirect here to a page that says something along the lines of "searching for live streams..."
+
         // Start checking for live broadcasts every 30 seconds
         checkForLiveBroadcasts(res);
     } catch (error) {
